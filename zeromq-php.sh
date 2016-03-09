@@ -9,7 +9,7 @@
 apt-get update
 
 # Install ZMQ and other required tools
-apt-get install git libzmq3 libzmq3-dev php5-cli php-pear php5-dev pkg-config
+apt-get install -f git libzmq3 libzmq3-dev php5-cli php-pear php5-dev pkg-config
 
 # Install ZMQ via pecl
 echo "" | pecl install zmq-beta
